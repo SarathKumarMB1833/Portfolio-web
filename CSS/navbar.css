@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav{
+    padding-left: 200px;
+    padding-right: 10px;
+    background-color: #000;
+    color: white;
+    display : flex;
+    height: 50px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    height: 90%;
+    margin-left: 20px;
+}
+.data{
+   display: flex;
+   align-items: center;
+}
+#active{
+    color: red;
+}
+.data a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+a:hover{
+
+    color: red;
+}
+.nav a.active{
+    color: red;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    
+    100%{opacity: 1;}
+}
+@keyframes slide{
+100%{left:0;}
+}
+
+.home{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+
+}
+.name{
+    color: white;
+    text-shadow: 2px 2px #000;
+    margin-left: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation:fadeIn 5s;
+    
+}
+.image{
+    top: 40%;
+    transform: translateY(600px);
+    transform: translateX(-40%);
+}
+.Aboutme{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #000;
+    top: 50%;
+    transform: translateY(-50);
+    padding: 80px;
+    
+}
+.about{
+    animation:fadeIn 5s;
+}
+.edu{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #000;
+    top: 50%;
+    transform: translateY(-50);
+    padding: 80px;
+}
+.edu h1{
+    animation:fadeIn 5s;
+}
+.table{
+    animation:fadeIn 5s;
+    align-self: center;
+    margin-left: 50px;
+}
+.skill{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #000;
+    top: 50%;
+    transform: translateY(-50);
+    padding: 80px;
+    
+}
+.ms{
+    animation:fadeIn 5s;
+}
+.project{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #000;
+    top: 50%;
+    transform: translateY(-50);
+    padding: 80px;
+    
+}
+.pr{
+    animation:fadeIn 5s;
+}
+.contact{
+    text-align: center;
+    background-image: url(./images/bg.jpg);
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px #000;
+    top: 50%;
+    transform: translateY(-50);
+    padding: 80px;
+    
+}
+.C1{
+    animation:fadeIn 5s;
+}
